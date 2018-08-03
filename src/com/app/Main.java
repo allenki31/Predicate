@@ -9,7 +9,7 @@ public class Main {
 			ArrayList <EmployeeManagementApplicattion> list =new ArrayList <EmployeeManagementApplicattion>();
 			populate(list);
 			Predicate <EmployeeManagementApplicattion> p1 =emp -> emp.designation.equals("teamlead");
-			System.out.println("employee information");
+			System.out.println("teamlead information");
 			display(p1,list);
 		}
 		public static void populate(ArrayList<EmployeeManagementApplicattion> list) {
